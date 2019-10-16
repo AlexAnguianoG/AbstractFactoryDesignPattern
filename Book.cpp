@@ -61,7 +61,7 @@ class Book {
         void setCovers(Covers* t) { covers = t;}
         void setPages(Pages* b) {	pages = b;}
         void printDetails(){
-            cout << endl << "Book type: " << bookType << endl;
+            cout << "Book type: " << bookType << endl;
             cout << "Covers - Color: " << covers->getColor() << ". Thickness: " << covers->getThickness() << " mm" << endl;
             cout << "Pages - Quantity: " << pages->getQuantity() << " pages" << ". Font type: " << pages->getFontType() << endl << endl;
         }

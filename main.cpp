@@ -6,17 +6,17 @@ using namespace std;
 
 
 //Descomentar tipo de libro que se desea generar
-#define THICKCOVER_BOOK 1
+//#define THICKCOVER_BOOK 1
 #define THINCOVER_BOOK 1
 
 
 
 int main() {
-	//#ifdef THICKCOVER_BOOK
+	#ifdef THICKCOVER_BOOK
 		BookFactory* factory = new ThickCoverBookFactory;
-	//#elif THINCOVER_BOOK
+	#elif THINCOVER_BOOK
 		BookFactory* factory = new ThinCoverBookFactory;
-	//#endif
+	#endif
 
 	Book *book = factory->createWholeBook();
 	book->printDetails();
