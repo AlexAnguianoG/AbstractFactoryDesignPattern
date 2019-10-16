@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1571191022 source:e:\itc\05_semestre\análisis y modelación de sistemas de software\tareadesignpatterns\abstractfactorypd\book.cpp
+	<iostream>
+
+1571190645 source:e:\itc\05_semestre\análisis y modelación de sistemas de software\tareadesignpatterns\abstractfactorypd\bookfactory.cpp
+	<iostream>
+	"Book.cpp"
+
+1571191022 e:\itc\05_semestre\análisis y modelación de sistemas de software\tareadesignpatterns\abstractfactorypd\book.cpp
+	<iostream>
+
+1571189968 source:e:\itc\05_semestre\análisis y modelación de sistemas de software\tareadesignpatterns\abstractfactorypd\main.cpp
+	<iostream>
+	"BookFactory.cpp"
+
+1571190645 e:\itc\05_semestre\análisis y modelación de sistemas de software\tareadesignpatterns\abstractfactorypd\bookfactory.cpp
+	<iostream>
+	"Book.cpp"
+
